@@ -15,7 +15,7 @@ import javafx.scene.shape.Rectangle
 import javafx.stage.Stage
 import javafx.util.Duration
 
-class App : Application() {
+class Main : Application() {
     val robotRect = Rectangle(100.0, 100.0, 10.0, 10.0)
     val startRect = Rectangle(100.0, 100.0, 10.0, 10.0)
     val endRect = Rectangle(100.0, 100.0, 10.0, 10.0)
@@ -122,5 +122,5 @@ class App : Application() {
 }
 
 fun main(args: Array<String>) {
-    Application.launch(App::class.java, *args)
+    Application.launch(Main::class.java, *args)
 }
